@@ -5,3 +5,7 @@
     font: 400;
     
 }
+.active {
+    color: rgb(119, 141, 220);
+    text-decoration: underline;
+  }
