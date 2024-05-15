@@ -14,6 +14,8 @@ const Home = () => {
         <h2>Loading...</h2>:
         <Outlet></Outlet>
 
+        
+
       }
 
       
