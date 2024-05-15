@@ -1,4 +1,4 @@
-
+import "./Form.css"
 
 const SimpleForm = () => {
     const handleSubmit = e =>{
@@ -13,7 +13,7 @@ const SimpleForm = () => {
                 <input type="text" name="UserName" /> <br />
                 <input type="text" name="Email" /> <br />
                 <input type="text" name="Phone" /> <br />
-                <button>Submit</button>
+                <button className="submitButton">Submit</button>
             </form>
             
         </div>

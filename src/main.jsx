@@ -15,6 +15,7 @@ import Posts from './Components/Posts/Posts.jsx';
 import PostDetails from './Components/Posts/Post/PostDetails/PostDetails.jsx';
 import Errorpage from './Components/ErrorPages/Errorpage.jsx';
 import SimpleForm from './Components/FormHandle/SimpleForm.jsx';
+import StatefulForm from './Components/FormHandle/StatefulForm.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/simpleForms",
-        element:<SimpleForm></SimpleForm>
+        element:<StatefulForm></StatefulForm>
       },
       {
         path:"/users",
