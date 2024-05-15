@@ -14,6 +14,7 @@ import UserDetails from './Components/Users/User/UserDetails/UserDetails.jsx';
 import Posts from './Components/Posts/Posts.jsx';
 import PostDetails from './Components/Posts/Post/PostDetails/PostDetails.jsx';
 import Errorpage from './Components/ErrorPages/Errorpage.jsx';
+import SimpleForm from './Components/FormHandle/SimpleForm.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path:"/about",
         element:<AboutUs></AboutUs>
+      },
+      {
+        path:"/simpleForms",
+        element:<SimpleForm></SimpleForm>
       },
       {
         path:"/users",
