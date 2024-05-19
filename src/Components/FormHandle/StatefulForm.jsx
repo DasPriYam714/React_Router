@@ -37,7 +37,6 @@ const StatefulForm = () => {
                 }
             </form>
 
-            
         </div>
     );
 };
